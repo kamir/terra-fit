@@ -10,6 +10,6 @@ You need Apache Spark (optionally in local mode) and Gnuplot.
 ###How to install Apache Spark on OSX?
  
 ###How to install Gnuplot on OSX?
- http://brewformulas.org/Gnuplot
- brew install gnuplot
+http://brewformulas.org/Gnuplot
++ brew install gnuplot
 
