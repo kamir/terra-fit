@@ -1,0 +1,6 @@
+# terra-fit
+<<<<<<< HEAD
+=======
+Do you know Terra-Sort? People use it to benchamark IO-Speed of a Hadoop cluster.
+Terra-Fit acts as a benchmark for regression algorithms and as a training tool. 
+>>>>>>> 711bbf727ac0a12624097a61bc041e769d36afa6
