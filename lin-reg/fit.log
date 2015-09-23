@@ -1,0 +1,348 @@
+
+
+*******************************************************************************
+Wed Sep 23 17:05:50 2015
+
+
+FIT:    data read from "data/lr2.dat" u 1:2:3
+        format = x:z:s
+        #datapoints = 14
+function used for fitting: f(x)
+	f(x)=a*x+b+0.000000001
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.4000000028e+01   0.00e+00  1.25e+01    1.000000e+00   1.000000e+00
+   8 2.8501456096e-29   0.00e+00  1.25e+05    1.000000e+00  -1.000001e-09
+
+After 8 iterations the fit converged.
+final sum of squares of residuals : 2.85015e-29
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 12
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.54114e-15
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.37512e-30
+p-value of the Chisq distribution (FIT_P)              : 1
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 1                +/- 2.992e-17    (2.992e-15%)
+b               = -1e-09           +/- 5.285e-16    (5.285e-05%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.626  1.000 
+
+
+*******************************************************************************
+Wed Sep 23 17:11:32 2015
+
+
+FIT:    data read from "data/functional-test.dat" u 1:2:3:4
+        format = x:y:z:s
+BREAK: No data to fit
+
+*******************************************************************************
+Wed Sep 23 17:12:21 2015
+
+
+FIT:    data read from "data/functional-test.dat" u 1:2:3
+        format = x:z:s
+
+Current data point
+=========================
+#               = 9 out of 14
+x               = 0              
+z               = 0              
+s               = 0              
+
+BREAK: Zero error value in data file
+
+*******************************************************************************
+Wed Sep 23 17:13:17 2015
+
+
+FIT:    data read from "data/functional-test.dat" u 1:2:3
+        format = x:z:s
+        #datapoints = 11
+function used for fitting: f(x)
+	f(x)=a1*x1+a2*x2+b+0.000000001
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Wed Sep 23 17:13:45 2015
+
+
+FIT:    data read from "data/functional-test.dat" u 1:2:3
+        format = x:z:s
+        #datapoints = 11
+function used for fitting: f(x)
+	f(x)=a*x+b+0.000000001
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 3.7930986007e-01   0.00e+00  3.77e-01    1.000000e+00   1.000000e+00
+   6 1.9617952339e-32   0.00e+00  3.77e-07    1.000000e+00  -1.000000e-09
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 1.9618e-32
+abs. change during last iteration : 0
+
+
+Hmmmm.... Sum of squared residuals is zero. Can't compute errors.
+
+Final set of parameters 
+======================= 
+
+a               = 1              
+b               = -1e-09         
+
+
+*******************************************************************************
+Wed Sep 23 17:13:55 2015
+
+
+FIT:    data read from "data/functional-test.dat" u 1:2:3
+        format = x:z:s
+        #datapoints = 11
+function used for fitting: f(x)
+	f(x)=a*x+b+0.000000001
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 3.7930986007e-01   0.00e+00  3.77e-01    1.000000e+00   1.000000e+00
+   6 1.9617952339e-32   0.00e+00  3.77e-07    1.000000e+00  -1.000000e-09
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 1.9618e-32
+abs. change during last iteration : 0
+
+
+Hmmmm.... Sum of squared residuals is zero. Can't compute errors.
+
+Final set of parameters 
+======================= 
+
+a               = 1              
+b               = -1e-09         
+
+
+*******************************************************************************
+Wed Sep 23 17:18:08 2015
+
+
+FIT:    data read from "data/functional-test.dat" u 1:2:3
+        format = x:z:s
+        #datapoints = 11
+function used for fitting: f(x1,x2)
+	f(x1,x2)=a1*x1+a2*x2+b+0.000000001
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Wed Sep 23 17:22:05 2015
+
+
+FIT:    data read from "data/functional-test.dat" u 1:2:3
+        format = x:z:s
+        #datapoints = 11
+function used for fitting: f(a,b)
+	f(a,b)=m1*a+m2*b+c+0.000000001
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Wed Sep 23 17:23:50 2015
+
+
+FIT:    data read from "data/functional-test.dat" u 1:2:3
+        format = x:y:z
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x,y)
+	f(x,y)=a*x+b*y+c+0.000000001
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 1.1000000022e+01   0.00e+00  1.63e+01    1.000000e+00   1.000000e+00   1.000000e+00
+   6 0.0000000000e+00  -inf       1.63e-05    1.000000e+00   1.000000e+00  -9.999999e-10
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -3.63964e-24
+
+
+Hmmmm.... Sum of squared residuals is zero. Can't compute errors.
+
+Final set of parameters 
+======================= 
+
+a               = 1              
+b               = 1              
+c               = -1e-09         
+
+
+*******************************************************************************
+Wed Sep 23 17:25:04 2015
+
+
+FIT:    data read from "data/functional-test.dat" u 1:2:3
+        format = x:y:z
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x,y)
+	f(x,y)=a*x+b*y+c+0.000000001
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 1.1000000022e+01   0.00e+00  1.63e+01    1.000000e+00   1.000000e+00   1.000000e+00
+   6 0.0000000000e+00  -inf       1.63e-05    1.000000e+00   1.000000e+00  -9.999999e-10
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -3.63964e-24
+
+
+Hmmmm.... Sum of squared residuals is zero. Can't compute errors.
+
+Final set of parameters 
+======================= 
+
+a               = 1              
+b               = 1              
+c               = -1e-09         
+
+
+*******************************************************************************
+Wed Sep 23 17:25:50 2015
+
+
+FIT:    data read from "data/functional-test.dat" u 1:2:3
+        format = x:y:z
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x,y)
+	f(x,y)=a*x+b*y+c+0.000000001
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 1.1000000022e+01   0.00e+00  1.63e+01    1.000000e+00   1.000000e+00   1.000000e+00
+   6 0.0000000000e+00  -inf       1.63e-05    1.000000e+00   1.000000e+00  -9.999999e-10
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -3.63964e-24
+
+
+Hmmmm.... Sum of squared residuals is zero. Can't compute errors.
+
+Final set of parameters 
+======================= 
+
+a               = 1              
+b               = 1              
+c               = -1e-09         
+
+
+*******************************************************************************
+Wed Sep 23 17:26:22 2015
+
+
+FIT:    data read from "data/functional-test.dat" u 1:2:3
+        format = x:y:z
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x,y)
+	f(x,y)=a*x+b*y+c+0.000000001
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 1.1000000022e+01   0.00e+00  1.63e+01    1.000000e+00   1.000000e+00   1.000000e+00
+   6 0.0000000000e+00  -inf       1.63e-05    1.000000e+00   1.000000e+00  -9.999999e-10
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -3.63964e-24
+
+
+Hmmmm.... Sum of squared residuals is zero. Can't compute errors.
+
+Final set of parameters 
+======================= 
+
+a               = 1              
+b               = 1              
+c               = -1e-09         
+
+
+*******************************************************************************
+Wed Sep 23 17:27:16 2015
+
+
+FIT:    data read from "data/functional-test.dat" u 1:2:3
+        format = x:y:z
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x,y)
+	f(x,y)=a*x+b*y+c+0.000000001
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 1.1000000022e+01   0.00e+00  1.63e+01    1.000000e+00   1.000000e+00   1.000000e+00
+   6 0.0000000000e+00  -inf       1.63e-05    1.000000e+00   1.000000e+00  -9.999999e-10
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -3.63964e-24
+
+
+Hmmmm.... Sum of squared residuals is zero. Can't compute errors.
+
+Final set of parameters 
+======================= 
+
+a               = 1              
+b               = 1              
+c               = -1e-09         
+
+
+*******************************************************************************
+Wed Sep 23 17:27:49 2015
+
+
+FIT:    data read from "data/functional-test.dat" u 1:2:3
+        format = x:y:z
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x,y)
+	f(x,y)=a*x+b*y+c+0.000000001
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 1.1000000022e+01   0.00e+00  1.63e+01    1.000000e+00   1.000000e+00   1.000000e+00
+   6 0.0000000000e+00  -inf       1.63e-05    1.000000e+00   1.000000e+00  -9.999999e-10
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -3.63964e-24
+
+
+Hmmmm.... Sum of squared residuals is zero. Can't compute errors.
+
+Final set of parameters 
+======================= 
+
+a               = 1              
+b               = 1              
+c               = -1e-09         
